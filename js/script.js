@@ -1,0 +1,3 @@
+var noticias = [];
+
+var noticia;
