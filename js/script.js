@@ -2,4 +2,3 @@ var noticiasJSON = '{"1": {"titulo": "","subtitulo": "","data-hora": "","autor":
 
 console.log(JSON.parse(noticiasJSON));
 
-console.log("teste")
