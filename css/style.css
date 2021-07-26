@@ -1,0 +1,7 @@
+.list-group-item {
+    height: 4rem;
+}
+
+.card-body {
+    min-height: 12.5rem;
+}
