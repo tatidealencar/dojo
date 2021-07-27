@@ -5,3 +5,75 @@
 .card-body {
     min-height: 12.5rem;
 }
+
+.border-economia {
+    border: #FFE135 1px solid;
+}
+
+.bg-economia {
+    background-color: #FFE135;
+}
+
+.border-saude {
+    border: #77DD77 1px solid;
+}
+
+.bg-saude {
+    background-color: #77DD77;
+}
+
+.border-politica {
+    border: #FF6961 1px solid;
+}
+
+.bg-politica {
+    background-color: #FF6961;
+}
+
+.border-entretenimento {
+    border: #87CEEB 1px solid;
+}
+
+.bg-entretenimento {
+    background-color: #87CEEB;
+}
+
+.border-esporte {
+    border: #FE5000 1px solid;
+}
+
+.bg-esporte {
+    background-color: #FE5000;
+}
+
+.border-tecnologia {
+    border: #C0C6C8 1px solid;
+}
+
+.bg-tecnologia {
+    background-color: #C0C6C8;
+}
+
+.border-viagem-gastro {
+    border: #FF69B4 1px solid;
+}
+
+.bg-viagem-gastro {
+    background-color: #FF69B4;
+}
+
+.border-educacao {
+    border: #007FFF 1px solid;
+}
+
+.bg-educacao {
+    background-color: #007FFF;
+}
+
+.border-carros {
+    border: #CD853F 1px solid;
+}
+
+.bg-carros {
+    background-color: #CD853F;
+}
