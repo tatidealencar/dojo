@@ -36,24 +36,42 @@
         "categoria": "3"
     },
     "4": {
-        "titulo": "teste 4",
+        "titulo": "Economia 4",
         "subtitulo": "",
         "data-hora": "",
         "autor": "",
         "foto-capa": "",
         "texto": "",
-        "categoria": "4"
+        "categoria": "1"
     },
     "5": {
-        "titulo": "teste 5",
+        "titulo": "Economia 3",
         "subtitulo": "",
         "data-hora": "",
         "autor": "",
         "foto-capa": "",
         "texto": "",
-        "categoria": "5"
+        "categoria": "1"
     },
     "6": {
+        "titulo": "Economia 2",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "1"
+    },
+    "7": {
+        "titulo": "Economia 2",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "1"
+    },
+    "8": {
         "titulo": "Economia 2",
         "subtitulo": "",
         "data-hora": "",
