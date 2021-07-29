@@ -1,42 +1,65 @@
 {
-   "1":{
-      "titulo":"",
-      "subtitulo":"",
-      "data-hora":"",
-      "autor":"",
-      "foto-capa":"",
-      "texto":""
-   },
-   "2":{
-      "titulo":"",
-      "subtitulo":"",
-      "data-hora":"",
-      "autor":"",
-      "foto-capa":"",
-      "texto":""
-   },
-   "3":{
-      "titulo":"",
-      "subtitulo":"",
-      "data-hora":"",
-      "autor":"",
-      "foto-capa":"",
-      "texto":""
-   },
-   "4":{
-      "titulo":"",
-      "subtitulo":"",
-      "data-hora":"",
-      "autor":"",
-      "foto-capa":"",
-      "texto":""
-   },
-   "5":{
-      "titulo":"",
-      "subtitulo":"",
-      "data-hora":"",
-      "autor":"",
-      "foto-capa":"",
-      "texto":""
-   }
+    "0": {
+        "titulo": "teste 0",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "6"
+    },
+    "1": {
+        "titulo": "Economia 1",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "1"
+    },
+    "2": {
+        "titulo": "teste 2",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "2"
+    },
+    "3": {
+        "titulo": "teste 3",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "3"
+    },
+    "4": {
+        "titulo": "teste 4",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "4"
+    },
+    "5": {
+        "titulo": "teste 5",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "5"
+    },
+    "6": {
+        "titulo": "Economia 2",
+        "subtitulo": "",
+        "data-hora": "",
+        "autor": "",
+        "foto-capa": "",
+        "texto": "",
+        "categoria": "1"
+    }
 }
