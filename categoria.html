@@ -9,6 +9,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -28,13 +29,13 @@
                             <a id="link_economia" class="nav-link" href="categoria.html?categoria=1">Economia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="categoria.html?categoria=2">Política</a>
+                            <a id="link_politica" class="nav-link" href="categoria.html?categoria=2">Política</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="categoria.html?categoria=3">Entretenimento</a>
+                            <a id="link_entretenimento" class="nav-link" href="categoria.html?categoria=3">Entretenimento</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="categoria.html?categoria=4">Esporte</a>
+                            <a id="link_esporte" class="nav-link" href="categoria.html?categoria=4">Esporte</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -112,107 +113,58 @@
                     </div>
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
                         <div class="col ">
-                            <div class="card ">
-                                <img src="images/business1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Economia</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card border-economia">
+                                <img src="images/business1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-economia p-2 position-absolute end-0">Economia</h5>
                                 </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
+                                <div class="card-body bg-economia">
+                                    <h5 class="card-title">Cresce o interesse por Bitcoin</h5>
+                                    <p class="card-text">Bitcoin decola 15% após rumores sobre Amazon e Alibaba adotarem criptomoedas em todas as suas operações</p>
+                                    <small class="text-muted">Publicado 4 horas atrás</small>
                                 </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Economia</li>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">O que os brasileiros fazem com as suas economias?</li>
+                                    <li class="list-group-item">Quando a economia vai crescer e gerar empregos?</li>
+                                    <li class="list-group-item">Alertas para você não perder dinheiro na bolsa </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col ">
-                            <div class="card ">
-                                <img src="images/politics1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Política</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card border-politica">
+                                <img src="images/politics1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-politica p-2 position-absolute end-0">Política</h5>
                                 </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
+                                <div class="card-body bg-politica">
+                                    <h5 class="card-title">Ataque ao Capitólio</h5>
+                                    <p class="card-text">Homem da Flórida é condenado a 80 anos de prisão por ataque ao Capitólio dos EUA</p>
+                                    <small class="text-muted">Publicado 5 horas atrás</small>
                                 </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Política</li>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Mercado vê jogo de soma zero em reforma ministerial</li>
+                                    <li class="list-group-item">Congresso terá que exploicar ao povo aumento do fundo eleitorial
+                                    </li>
+                                    <li class="list-group-item">Operação Lava jato prende todos os politicos do Brasil
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col ">
-                            <div class="card ">
-                                <img src="images/entertainment1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Entretenimento</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card border-entretenimento">
+                                <img src="images/entertainment1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body bg-entretenimento">
+                                    <div class="card-img-overlay d-flex flex-row-reverse">
+                                        <h5 class="card-title bg-entretenimento p-2 position-absolute end-0">Entretenimento</h5>
+                                    </div>
+                                    <h5 class="card-title">Evento teste em Porto Alegre</h5>
+                                    <p class="card-text">Com triagem clínica e testagem de público, Porto Alegre realiza primeiro evento teste</p>
+                                    <small class="text-muted">Publicado 1 dia atrás</small>
                                 </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Entretenimento</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="card-line ">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
-                        <div class="col ">
-                            <div class="card ">
-                                <img src="images/sport1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Esporte</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Esporte</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col ">
-                            <div class="card ">
-                                <img src="images/tech1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Tecnologia</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Tecnologia</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col ">
-                            <div class="card ">
-                                <img src="images/health1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Saúde & Bem Estar</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Saúde & Bem Estar</li>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">10 séries favoritas no Netflix</li>
+                                    <li class="list-group-item">Indicados ao Oscar 2022</li>
+                                    <li class="list-group-item">Músicas brasileras estão bombando em Tóquio</li>
                                 </ul>
                             </div>
                         </div>
@@ -220,53 +172,115 @@
                     <hr class="card-line ">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
                         <div class="col ">
-                            <div class="card ">
-                                <img src="images/travel1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Viagem & Gastronomia</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card border-esporte">
+                                <img src="images/sport1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-esporte p-2 position-absolute end-0">Esporte</h5>
                                 </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
+                                <div class="card-body bg-esporte">
+                                    <h5 class="card-title">Melhores equipamentos</h5>
+                                    <p class="card-text">As melhores botas de trekking escolhidas por experts</p>
+                                    <small class="text-muted">Publicado 6 horas atrás</small>
                                 </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Viagem & Gastronomia</li>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">O poder da representatividade no skate feminino</li>
+                                    <li class="list-group-item">Brasil tenta confirmar favoritivismo no surfe</li>
+                                    <li class="list-group-item">O fim de semana do Brasil em Tóquio</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col ">
-                            <div class="card ">
-                                <img src="images/education1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Educação</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card border-tecnologia">
+                                <img src="images/tech1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-tecnologia p-2 position-absolute end-0">Tecnologia</h5>
                                 </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
+                                <div class="card-body bg-tecnologia">
+                                    <h5 class="card-title">Tecnologia e Segurança</h5>
+                                    <p class="card-text">Fraudes virtuais são um desafio de companhias de cartão de crédito
+                                    </p>
+                                    <small class="text-muted">Publicado 9 horas atrás</small>
                                 </div>
-                            </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Educação</li>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Startups lideram corrida por carro voador</li>
+                                    <li class="list-group-item">Drone detecta vida em Marte</li>
+                                    <li class="list-group-item">Guerra dos streamings. Qual o melhor?</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col ">
-                            <div class="card ">
-                                <img src="images/car1.jpg " class="card-img-top " alt="... ">
-                                <div class="card-body ">
-                                    <h5 class="card-title ">Carros</h5>
-                                    <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card border-saude">
+                                <img src="images/health1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-saude p-2 position-absolute end-0">Saúde</h5>
                                 </div>
-                                <div class="card-footer ">
-                                    <small class="text-muted ">Last updated 3 mins ago</small>
+                                <div class="card-body bg-saude">
+                                    <h5 class="card-title">Saúde & Bem Estar</h5>
+                                    <p class="card-text">Investimentos na saúde e bem estar dos funcionários geram benefícios econômicos para as organizações</p>
+                                    <small class="text-muted">Publicado 2 dias atrás</small>
                                 </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Intervalo entre doses da Pfizer será de 21 dias</li>
+                                    <li class="list-group-item">11 mitos sobre exercícios que atrapalham seus resultados no treino</li>
+                                    <li class="list-group-item">Álccol é vilão na dieta?</li>
+                                </ul>
                             </div>
-                            <div class="card mt-2 ">
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item ">Carros</li>
+                        </div>
+                    </div>
+                    <hr class="card-line ">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
+                        <div class="col ">
+                            <div class="card border-viagem-gastro">
+                                <img src="images/travel1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-viagem-gastro p-2 position-absolute end-0">Viagem & Gastronomia</h5>
+                                </div>
+                                <div class="card-body bg-viagem-gastro">
+                                    <h5 class="card-title">Viagem & Gastronomia</h5>
+                                    <p class="card-text">França reabre ao mercado internacional para todos os turistas com vacinação completa</p>
+                                    <small class="text-muted">Publicado 2 horas atrás</small>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Conheça os bastidores da Disney</li>
+                                    <li class="list-group-item">Casarão histórico em SP pode abrigar novo Museu da Gastronomia
+                                    </li>
+                                    <li class="list-group-item">Restaurantes vegetarianos para conhecer no Rio</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="card border-educacao">
+                                <img src="images/education1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-educacao p-2 position-absolute end-0">Educação</h5>
+                                </div>
+                                <div class="card-body bg-educacao">
+                                    <h5 class="card-title">Volta às aulas</h5>
+                                    <p class="card-text">Pela primeira vez desde o início da pandemia, maior parte das redes de educação infantil vai reabrir as escolas</p>
+                                    <small class="text-muted">Publicado 1 dia atrás</small>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Inscrições para o FIES tem início amanhã</li>
+                                    <li class="list-group-item">Enem 2021 registra o menor número de inscrições</li>
+                                    <li class="list-group-item">7 universidades brasileiras estão entre as melhores em rankings: veja quais</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="card border-carros">
+                                <img src="images/car1.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay d-flex flex-row-reverse">
+                                    <h5 class="card-title bg-carros p-2 position-absolute end-0">Carros</h5>
+                                </div>
+                                <div class="card-body bg-carros">
+                                    <h5 class="card-title">Futuro dos carros</h5>
+                                    <p class="card-text">Carros eletrificados já são mais de 35% das vendas no mercado europeu e esse número deve dobrar em 5 anos</p>
+                                    <small class="text-muted">Publicado 1 hora atrás</small>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">5 carros que não têm adversários e reinam sozinhos</li>
+                                    <li class="list-group-item">Ferrari clássica de 1978 é restaurada em Boituva</li>
+                                    <li class="list-group-item">Nova scooter chega por R$ 14.900</li>
                                 </ul>
                             </div>
                         </div>
@@ -274,51 +288,51 @@
                 </div>
                 <div class="col-3 ">
                     <div class="row ">
-                        <div class="card border-0 bg-light mb-4 " style="align-items: center; max-width: 93%; margin-left: 12px; ">
+                        <div class="card border-0 bg-light mb-4" style="align-items: center; max-width: 93%; margin-left: 12px;">
                             <!-- TradingView Widget BEGIN -->
 
-                            <div class="tradingview-widget-container pt-3 ">
-                                <div class="tradingview-widget-container__widget "></div>
-                                <div class="tradingview-widget-copyright ">
-                                    <a href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC " rel="noopener " target="_blank "></a>
+                            <div class="tradingview-widget-container pt-3">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright">
+                                    <a href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC" rel="noopener" target="_blank"></a>
                                 </div>
-                                <script type="text/javascript " src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js " async>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
                                     {
-                                        "symbol ": "FX_IDC:USDBRL ",
-                                        "width ": "96% ",
-                                        "colorTheme ": "light ",
-                                        "isTransparent ": true,
-                                        "locale ": "en "
+                                        "symbol": "FX_IDC:USDBRL",
+                                        "width": "96%",
+                                        "colorTheme": "light",
+                                        "isTransparent": true,
+                                        "locale": "en"
                                     }
                                 </script>
                             </div>
-                            <div class="tradingview-widget-container ">
-                                <div class="tradingview-widget-container__widget "></div>
-                                <div class="tradingview-widget-copyright ">
-                                    <a href="https://br.tradingview.com/symbols/EURBRL/?exchange=FX_IDC " rel="noopener " target="_blank "></a>
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright">
+                                    <a href="https://br.tradingview.com/symbols/EURBRL/?exchange=FX_IDC" rel="noopener" target="_blank"></a>
                                 </div>
-                                <script type="text/javascript " src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js " async>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
                                     {
-                                        "symbol ": "FX_IDC:EURBRL ",
-                                        "width ": "96% ",
-                                        "colorTheme ": "light ",
-                                        "isTransparent ": true,
-                                        "locale ": "en "
+                                        "symbol": "FX_IDC:EURBRL",
+                                        "width": "96%",
+                                        "colorTheme": "light",
+                                        "isTransparent": true,
+                                        "locale": "en"
                                     }
                                 </script>
                             </div>
-                            <div class="tradingview-widget-container ">
-                                <div class="tradingview-widget-container__widget "></div>
-                                <div class="tradingview-widget-copyright ">
-                                    <a href="https://br.tradingview.com/symbols/BTCUSD/?exchange=BITSTAMP " rel="noopener " target="_blank "></a>
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright">
+                                    <a href="https://br.tradingview.com/symbols/BTCUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"></a>
                                 </div>
-                                <script type="text/javascript " src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js " async>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
                                     {
-                                        "symbol ": "BITSTAMP:BTCUSD ",
-                                        "width ": "96% ",
-                                        "colorTheme ": "light ",
-                                        "isTransparent ": true,
-                                        "locale ": "en "
+                                        "symbol": "BITSTAMP:BTCUSD",
+                                        "width": "96%",
+                                        "colorTheme": "light",
+                                        "isTransparent": true,
+                                        "locale": "en"
                                     }
                                 </script>
                             </div>

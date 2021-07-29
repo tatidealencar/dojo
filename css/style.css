@@ -7,11 +7,15 @@
 }
 
 .border-economia {
-    border: #FFE135 1px solid;
+    border:;
 }
 
 .bg-economia {
-    background-color: #FFE135;
+    background-color: #dbdad1;
+}
+
+.bg-economia1 {
+    background-color: yellow;
 }
 
 .border-saude {
@@ -23,11 +27,15 @@
 }
 
 .border-politica {
-    border: #FF6961 1px solid;
+    border: ;
 }
 
 .bg-politica {
-    background-color: #FF6961;
+    background-color: #dbdad1;
+}
+
+.bg-politica1 {
+    background-color:red;
 }
 
 .border-entretenimento {
