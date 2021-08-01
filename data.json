@@ -1,83 +1,231 @@
 {
     "0": {
-        "titulo": "teste 0",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "6"
+        "titulo": "Bitcoin decola 15% após rumor sobre Amazon adotar criptomoedas",
+        "subtitulo": "Nova vaga de emprego para desenvolvimento e aplicação de criptomoedas na Amazon indica que empresa pode passar a aceitar bitcoin (BTC) e outras moedas digitais",
+        "data-hora": "26/07/2021 às 11:08hs",
+        "data-hora-atualizacao": "27/07/2021 às 15:15hs",
+        "autor": "Bruno Ignacio",
+        "local": "São Paulo",
+        "descricao-foto-capa": "Moeda dourada representando o Bitcoin",
+        "foto-capa": "images/business1.jpg",
+        "texto": "<p>Na manhã desta segunda-feira (26), o bitcoin (BTC) chegou a ser negociado por um pouco mais de US$ 39 mil, seu maior preço das últimas seis semanas, completando também seis dias consecutivos de alta. Sua mais recente disparada ocorreu no final de domingo, quando a criptomoeda se valorizou em 15% em poucas horas, impulsionada pelo rumor de que a Amazon poderia aceitar o ativo e outras moedas digitais para pagamentos em breve.Bitcoin atinge maior preço das últimas seis semanas.</p>
+        <p>De acordo com o índice de preços CoinDesk, o bitcoin saiu de uma mínima de US$ 33,8 mil para uma máxima de US$ 39,5 mil nas últimas 24 horas. A grande variação de hoje também adicionou cerca de US$ 100 bilhões ao valor de mercado da criptomoeda, que, segundo o CoinMarketCap, capitalizava aproximadamente US$ 730 bilhões nesta manhã.</p>
+        <p>A retomada de força da criptomoeda se deve principalmente à possibilidade de a Amazon passar a aceitar bitcoin em breve. O rumor começou a partir de uma reportagem do Business Insider, que conversou com um porta-voz da companhia. Segundo ele, a empresa “está inspirada pela inovação que ocorre dentro do mercado de criptomoedas e está explorando como isso funcionaria na Amazon”.</p>
+        <p>Ainda que a empresa não tenha confirmado nada, a possibilidade de uma das maiores varejistas do mundo aceitar bitcoin e até mesmo outras criptomoedas é uma notícia gigante para o mercado, naturalmente incentivando a compra do ativo digital e impulsionando seu preço.</p>
+        <p>Porém, o rumor é apoiado por um recente anúncio de emprego. A Amazon está contratando um líder de produto de moeda digital e blockchain para sua equipe de pagamentos, de acordo com uma nova postagem no Amazon Jobs. Além disso, a Amazon Web Services (AWS), divisão de nuvem da empresa, já tem um serviço de blockchain gerenciado, o que facilitaria a implementação de um sistema de pagamentos com moedas digitais.</p>
+        <p>A empresa busca alguém experiente para desenvolver a estratégia e o roadmap de produtos e moedas digitais da Amazon. “Você aproveitará sua experiência de domínio em blockchain, razão distribuída, moedas digitais de bancos centrais (CBDCs) e criptomoedas para desenvolver os recursos necessários, conduzir a visão geral, estratégia de produto e liderar investimento em novos recursos”, diz a descrição da vaga.</p>
+        <p>Entre as exigências para o emprego, estão: bacharelado em um área correlata com a vaga, preferencialmente com MBA e mais de 10 anos de experiência em gerenciamento de produto ou programa, marketing de produto, desenvolvimento de negócios ou tecnologia. A vaga é para as cidades de Seattle e Washington, nos Estados Unidos.</p>
+        <p>Conforme aponta o anúncio de emprego da Amazon, a possibilidade de a empresa passar a aceitar criptomoedas é real e provável. Porém, mais detalhes são apenas especulações. Já que o bitcoin é a maior e mais conhecida moeda digital do mercado, o ativo deve ser uma das opções de pagamento a ser adicionadas. O ether (ETH), a segunda maior criptomoeda em capitalização, também é uma grande aposta.</p>
+        <p>Além disso, a descrição da vaga de emprego cita as moedas digitais de bancos centrais, ou CBDCs, indicando que a Amazon quer se preparar para possivelmente integrar pagamentos com moedas estatais como o iuan digital, do Banco Popular da China (PBC). As stablecoins lastreadas no dólar,como o Tether (USDT), também são uma forte possibilidade. Por fim, pelas experiências exigidas na vaga, a Amazon pode até mesmo estar cogitando desenvolver seu próprio token.</p>
+        <p>Naturalmente, o mercado especulativo das criptomoedas recebeu o rumor com bastante entusiamo. O mesmo efeito ocorreu quando a Tesla anunciou que liberaria a compra de seus carros elétricos com bitcoin. Na época, o preço do ativo subiu 5% imediatamente após a notícia, chegando a valer cerca de US$ 57 mil no dia 24 de março. O inverso também se aplica, como quando a empresa de Elon Musk voltou atrás em sua decisão apenas dois meses após implementá-la, causando uma desvalorização de 15% em questão de horas.</p>",
+        "categoria": "1"
     },
     "1": {
-        "titulo": "Economia 1",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "1"
-    },
-    "2": {
-        "titulo": "teste 2",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
+        "titulo": "Prisão por ataque ao Capitólio dos EUA",
+        "subtitulo": "Homem da Flórida é condenado a 8 meses de prisão por ataque ao Capitólio dos EUA",
+        "data-hora": "19/07/2021 às 21:01hs",
+        "data-hora-atualizacao": "19/07/2021 às 21:07hs",
+        "autor": "Mark Hosenball",
+        "local": "Washington-DC",
+        "descricao-foto-capa": "Vista geral do Capitólio em Washington-DC",
+        "foto-capa": "images/politics1.jpg",
+        "texto": "<p>Um juiz federal dos Estados Unidos sentenciou Paul Hodgkins, um homem do Estado da Flórida, a oito meses de prisão por participação no ataque de 6 de janeiro ao Capitólio em Washington, tornando-o a primeira pessoa entre mais de 500 acusadas a ser condenada à prisão pelo violento ataque.</p>
+        <p>Hodgkins, de 38 anos, se declarou culpado no dia 2 de junho em uma acusação de obstrução de um procedimento oficial, já que o Congresso estava em sessão para certificar formalmente a eleição de Joe Biden como presidente dos Estados Unidos quando apoiadores do então presidente Donald Trump invadiram o prédio.</p>
+        <p>Procuradores haviam solicitado ao juiz distrital Randolph Moss a imposição de uma sentença de 18 meses na prisão. O advogado de Hodgkins, Patrick Leduc, fez um apelo para que seu cliente não fosse condenado à prisão.</p>
+        <p>Durante a audiência de sentença, Hodgkins disse a Moss que está “arrependido” de suas ações e reconheceu que sua conduta pode ter encorajado outros a participarem de atos destrutivos.</p>
+        <p>“Foi uma decisão tola de minha parte e eu assumo a total responsabilidade por ela”, acrescentou Hodgkins, que é morador da cidade de Tampa e trabalha como operador de guindastes para uma companhia siderúrgica.</p>
+        <p>Até agora, 17 pessoas se declararam culpadas em acusações relacionadas ao incidente, afirmou uma autoridade norte-americana.</p>
+        <p>A procuradora Mona Sedky disse ao juiz que Hodgkins vestiu óculos de proteção antes de adentrar o plenário do Senado durante a invasão e “posou orgulhosamente para fotos”, que foram compartilhadas com amigos. Sedky reconheceu que Hodgkins não destruiu propriedade do governo e “não feriu ninguém”.</p>
+        <p>Moss concordou que Hodgkins não havia sido violento, não ameaçou ninguém e não organizou o ataque ao Capitólio. Mas o juiz disse que Hodgkins foi ao Capitólio “para impedir a certificação da eleição, e ele admitiu isso”.</p>
+        <p>Mais de 535 pessoas foram acusadas de participar do ataque, que aconteceu após acusações falsas e repetidas de Trump de que a eleição havia sido roubada dele por meio de fraudes generalizadas.</p>
+        <p>Hodgkins se tornou a primeira pessoa enfrentando acusações ligadas ao ataque a ser condenada à prisão. A outra pessoa que foi condenada até agora por acusações relacionadas à invasão, Anna Morgan-Lloyd, do Estado de Indiana, se declarou culpada de mau comportamento e recebeu três anos de condicional.</p>
+        <p>Vários outros réus no caso estão enfrentando acusações criminais mais sérias do que Hodgkins, e potencialmente sentenças mais longas.</p>",
         "categoria": "2"
     },
-    "3": {
-        "titulo": "teste 3",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
+    "2": {
+        "titulo": "Evento-teste de protocolos contra Covid é realizado em Porto Alegre com 600 participantes",
+        "subtitulo": "Convidados tiveram que apresentar teste negativo de Covid-19. Vigilância Sanitária acompanhou preparativos para o evento. Alguns dos presentes não usaram máscaras.",
+        "data-hora": "26/07/2021 às 13:50hs",
+        "data-hora-atualizacao": "",
+        "autor": "Cristiano Dalcin",
+        "local": "Porto Alegre",
+        "descricao-foto-capa": "Multidão aglomerada em show de música",
+        "foto-capa": "images/entertainment.jpg",
+        "texto": "<p>Uma festa com 600 convidados, teste para a retomada das atividades durante a flexibilização das restrições da pandemia, foi realizada, neste domingo (25), em Porto Alegre. Para entrar no espaço, era necessário apresentar teste negativo para a Covid-19. </p>
+        <p>Todos os convidados foram testados no sábado (24). No dia do evento, 200 pessoas tiveram que repetir o exame. </p>
+        <p>A gerente da Vigilância Sanitária da Secretaria Municipal da Saúde (SMS), Paula Marques Rivas, explicou que os participantes da festa deveriam cumprir uma série de protocolos. </p>
+        <p>&quot Quais são estes itens: a questão do distanciamento, do uso do álcool em gel, a higienização frequente das mãos, a questão do consumo de alimentos e bebidas. A máscara, em 100% do tempo, deve estar sendo utilizada, a não ser que se esteja consumindo alguma bebida, algum alimento, o que deve acontecer num local específico durante o evento&quot, detalhou. </p>
+        <p>Nas paredes, placas lembravam dos cuidados durante a pandemia e orientavam para o uso de máscaras. Entretanto, nenhuma exigência foi feita para o cumprimento dos protocolos e algumas pessoas não usaram máscaras. </p>
+        <p>A empresária Elisa Londero, uma das 200 que fez o teste na área externa do estabelecimento, falou da expectativa de voltar às festas. &quot Vale a pena tudo isso. Festa é muito importante para a gente. Poder se reunir com os nossos amigos, poder estar junto com os nossos amigos é emocionante&quot, disse. </p>
+        <p>Após a festa, 200 pessoas vão realizar um novo teste de Covid. Outras 200 serão entrevistadas, para verificar se apresentaram algum sintoma da doença, a fim de comprovar se os protocolos de segurança deram resultado. </p>
+        <p>O evento, organizado por 30 empresários do ramo do entretenimento, reuniu oito DJs. Parte do espaço onde ocorreram os shows ficava ao ar livre. </p>
+        <p>Se for aprovado, o evento deve servir de modelo para outras festas realizadas futuramente. Os organizadores irão comunicar o governo do estado e o município dos resultados do evento-teste. </p>",
         "categoria": "3"
     },
+    "3": {
+        "titulo": "As melhores botas de trekking escolhidas por experts",
+        "subtitulo": "A Go Outside tem expertise em equipamentos outdoor – já são 14 anos de história! E para selecionar bons produtos, chamamos outros especialistas em aventura para indicar as melhores botas de trekking atuais no mercado. ",
+        "data-hora": "08/10/2019 às 12:34hs",
+        "data-hora-atualizacao": "",
+        "autor": "Por redação",
+        "local": "Brotas",
+        "descricao-foto-capa": "Esportista pulando de uma formação rochosa para outra num dia ensolarado",
+        "foto-capa": "images/sport1.jpg",
+        "texto": "<p>Forclaz Trek 900    </p>
+        <p>Quem recomenda: Bruno de Masredon, guia de montanha e alta montanha e diretor da agência Aventurista</p>
+        <p>Melhor para: Expedições longas e climas frios O produto da marca de aventura Forclaz, da francesa Decathlon, é o preferido do guia de montanha Bruno de Masredon, um heavy user de produtos de trekking. “Uma bota robusta, firme e que não vacila quando você precisa dela. Totalmente impermeável, ainda conta com uma proteção de borracha na junção do corpo com a sola, o que faz com que dure bem mais do que outras botas”, conta Bruno. </p>
+        <p>Ele também destaca o solado Vibram, com boa aderência e durabilidade. É uma bota pesada e volumosa, mas que dá conta de condições frias e “acompanha a qualidade das marcas mais renomadas do mercado e com uma durabilidade maior”, nas palavras do guia. Ele faz apenas a ressalva de que se trata de uma bota um pouco quente, que se sai melhor nas montanhas brasileiras e nos Andes. Peso: 400 gramas | decathlon.com.br | R$ 750</p>
+        <p>Salomon Quest Prime GTX R$ 1.200</p>
+        <p>Quem recomenda: Elida Zuchini, ex-atleta de rafting, guia outdoor especializada em montanhismo e cicloviagens</p>
+        <p>Melhor para: Clima brasileiro e trekking de média a longa duração com carga</p>
+        <p>Este modelo de cano alto, impermeável e robusto da Salomon é o atual preferido de Elida Zuchini, guia outdoor brasileira. “Gosto dele porque não é quente demais, funcionando bem para o Brasil. Está durando muito comigo – pelo meu volume de uso, a maioria das botas se desgasta rápido. Como o acabamento da Quest é mais bruto, está durando. É confortável, macio e leve”, conta. “Seu amortecimento é ótimo: entrega o que promete, mesmo com a alta quantidade de peso que carrego.” A Quest Prime tem membrana de Gore-Tex, proteção antibarro (que aumenta a durabilidade da bota) e ponteira de borracha bem ampla. Peso: 570 gramas | lojasalomon.com.br | R$ 1.200</p>
+        <p>Dachstein Grimming GTX </p>
+        <p>Quem recomenda: Rodolfo Guedes, guia de montanha que já escalou alguns dos maiores picos da américa do sul, como Tupungato e Huayna Potosí</p>
+        <p>Melhor para: Uso pesado em terrenos mistos e difíceis</p>
+        <p>Mais rígida e pesada que suas concorrentes, a Grimming é feita para dar conta de situações duras. Considerada semirrígida, é compatível com crampons, o que permite o uso em montanhas nevadas. Também dá conta do inverno brasileiro, como atesta o guia Rodolfo Guedes. “A Dachstein chegou faz pouco tempo ao mercado nacional, com produtos de alta qualidade. A bota é um pouco cara, porém muito durável. Sua qualidade é ótima”, diz. A bota possui tecnologias de impermeabilidade como membrana em Gore-Tex, cabedal em couro Perwanger e em cordura com tratamento hidrofugado resistente à água. A entressola em EVA e PU antichoque embutido ajuda na flexibilidade, com solado Vibram Mulaz, com boa tração. Tem uma camada extra de isolamento, o que deixa o modelo contraindicado para climas mais quentes. Peso: 1.242 gramas | dachstein.com.br | R$ 2.300</p>
+        <p>The North Face Venture Fastpack 2 Mid Gtx masculino </p>
+        <p>Melhor para: Praticantes ocasionais de trekking leve</p>
+        <p>Quase tão leve quanto um tênis de trilha e extremamente confortável, este modelo da The North Face possui cano alto, o que ajuda a proteger contra torções e desequilíbrios em caminhadas com carga. Com corpo em mesh, a Fastpack é bem respirável e tem membrana Gore-Tex, que a torna impermeável. Pelo conforto e leveza, é um modelo especialmente indicado para quem está começando no trekking, porém, como todo produto alinhado ao conceito de trekking ultraleve, um uso intenso em trilhas mais agressivas pode reduzir a durabilidade de forma signifi cativa. Peso: 312 gramas | thenorthface.com.br | R$ 650</p>
+        <p> Snake Fuse Dry R$ 614</p>
+        <p>Melhor para: Quem quer um produto leve, porém robusto</p>
+        <p>O modelo da marca nacional Snake usa bons componentes, como couro hidrofugado. Impermeável, a bota utiliza o sistema Dry System, uma membrana de poliéster especial não porosa que faz a função de barreira selada. No exterior, materiais como cordura, couro e reforços plásticos deixam o produto bastante resistente à abrasão. O solado da bota é da Vibram, com entressola em EVA para aumentar o conforto. A estrutura injetada do calçado elimina adesivos e costuras, aumentando o conforto e a leveza – aliás, é um dos modelos mais leves do mercado com essa proposta de uso. Com forro interno de poliamida, é respirável e flexível. Peso: 522 gramas | snake.com.br | R$ 614</p>
+        <p>Five Ten Guide GTX Mid R$ 720</p>
+        <p>Melhor para: Trekking com carga moderada</p>
+        <p>Conhecida no Brasil principalmente pelas sapatilhas de escalada, a Five Ten também possui ótimos modelos de montanhismo, como o Guide GTX Mid, bota com meio cano. Além de uma proteção maior para os tornozelos do que oferece um tênis baixo de trilha, seu ponto forte é o solado de borracha Stealth C4, que aumenta a aderência em trechos de rocha como lajes de pedra, escalaminhadas e trilhas com grandes blocos rochosos. A biqueira frontal caprichada também ajuda nessa missão. Com entressola em EVA moldada por compressão, é excelente para trilhas técnicas com carga moderada. Em couro, com membrana Gore-Tex, também é impermeável e respirável. Peso: não informado pela marca | sbioutdoor.com.br | R$ 720</p>",
+        "categoria": "4"
+    },
     "4": {
-        "titulo": "Economia 4",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "1"
+        "titulo": "Fraudes virtuais são um desafio de companhias de cartão de crédito",
+        "subtitulo": "As tentativas de fraudes com cartão de crédito aumentaram em 33% no último semestre, de acordo com o Mapa da Fraude.",
+        "data-hora": "26/07/2021 às 13:24hs",
+        "data-hora-atualizacao": "27/07/2021 às 02:21hs",
+        "autor": "Redação Finanças",
+        "local": "São Paulo",
+        "descricao-foto-capa": "Forma de cérebro humano hiperconectado com redes neurais",
+        "foto-capa": "images/tech1.jpg",
+        "texto": "<P>Para barrar o avanço da prática criminosa, as empresas financeiras têm investido em soluções tecnológicas que aumentem a confiabilidade da forma de pagamento. </P>
+        <P>Informações divulgadas pela Confederação Nacional de Dirigentes Lojistas e Serviços de Proteção ao Crédito, 60% das pessoas que fazem compras pela internet sofreram algum tipo de fraude. </P>
+        <P>Sistema de pagamento por aproximação e cartões virtuais são medidas que ajudaram a aumentar a segurança das transações financeiras. Em uma pesquisa realizada pela Digio, 81% dos entrevistados afirmaram que utilizam cartão digital e 52% dizem entender a dinâmica de segurança da modalidade. Apenas 36% disseram optar pela opção física. </P>
+        <P>Um recurso criado pelo Itaú permite o pagamento recorrente de serviços de straming por meio do cartão virtual. A comodidade garante maior proteção dos dados financeiros dos clientes. </P>
+        <P>Outra forma de utilização do crédito é pela &quotpoupança por assinatura&quot da fintech Monis. A plataforma permite que o cliente poupe dinheiro utilizando o cartão. O serviço afirma que a operação financeira oferece maior proteção financeira. </P>",
+        "categoria": "5"
     },
     "5": {
-        "titulo": "Economia 3",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "1"
+        "titulo": "Investimentos na saúde e bem estar dos funcionários geram benefícios econômicos para as organizações",
+        "subtitulo": "Investimento em saúde e bem-estar no mercado corporativo",
+        "data-hora": "28/06/2021 às 16:56hs",
+        "data-hora-atualizacao": "",
+        "autor": "Fátima Lima",
+        "local": "Belo Horizonte",
+        "descricao-foto-capa": "Ilustração de DNA humano",
+        "foto-capa": "images/health1.jpg",
+        "texto": "<p>Para as empresas, o investimento bem-estar dos funcionários é não só uma questão de reduzir seus custos em saúde, como também uma forma de melhorar a produtividade e desempenho financeiro. </p>
+        <p>A análise está em um novo estudo da consultoria Deloitte, que ouviu 11 mil líderes de RH e de negócios de empresas de 30 países. </p>
+        <p>De acordo com o relatório Tendências Globais de Capital Humano de 2018 – A ascensão da empresa social, 43% das empresas acreditam que programas de bem-estar oferecidos ajudam a reforçar sua missão e visão, 60% acreditam que eles ajudam a reter funcionários e 61% afirmam que melhoram a produtividade e os resultados financeiros. </p>
+        <p>Quando olhamos as métricas do Brasil, vemos que as pessoas estão se sentindo cada vez mais sobrecarregadas. </p>
+        <p>A preocupação com bem-estar apareceu de forma bastante significativa entre os entrevistados do país. </p>
+        <p>Segundo o estudo, um número crescente de empresas no mundo repensa seus programas de recompensas e desenvolvimento dos funcionários, buscando ações que propiciem maior bem-estar. </p>
+        <p>92% dos executivos entrevistados apontaram a atenção com o bem-estar como uma questão importante para suas atividades profissionais no futuro. </p>
+        <p>Por trás disto estão casos de sobrecarga (física e emocional), busca das pessoas por mais qualidade de vida e flexibilidade de trabalho (principalmente por parte dos millennials). </p>
+        <p>Quais são os benefícios de investir em bem-estar no trabalho? </p>
+        <p>Investir em bem-estar no trabalho traz diversos benefícios para as empresas e seus colaboradores. </p>
+        <p>Saiba mais detalhes sobre cada um deles a seguir: </p>
+        <p>Mudança de hábitos</p>
+        <p>Talvez a maior vantagem de investir em bem-estar no trabalho seja a mudança de hábitos dos colaboradores. </p>
+        <p>É muito comum uma pessoa se propor a viver uma rotina mais saudável, mas adotar novos comportamentos por apenas alguns dias. </p>
+        <p>Manter-se firme a longo prazo é um grande desafio para a maioria dos trabalhadores, devido à rotina corrida na carreira e na vida pessoal. </p>
+        <p>No entanto, isso se torna mais fácil quando há o apoio da empresa, já que os funcionários passam pelo menos 8 horas por dia no ambiente de trabalho. </p>
+        <p>Então, se houver o incentivo da empresa, as chances de uma mudança de hábitos permanente são muito maiores. </p>
+        <p>Redução de custos com cuidados de saúde</p>
+        <p>Investir em bem-estar no trabalho reduz riscos de saúde, como taxa de açúcar no sangue, colesterol e pressão sanguínea. </p>
+        <p>Esses e outros fatores costumam causar doenças séries na maioria dos adultos, por isso precisam ser controlados. </p>
+        <p>Com colaboradores mais saudáveis, os gastos com cuidados de saúde diminuem, tanto para os funcionários quanto para a empresa. </p>
+        <p>Afinal, os gastos com consultas, exames e compra de medicamentos são reduzidos ao mínimo quando há um bom trabalho de prevenção e estímulo ao bem-estar. </p>
+        <p>Aumento da produtividade</p>
+        <p>Sabe quando um colaborador só está presente fisicamente no trabalho, sem conseguir desempenhar seu papel com eficiência? </p>
+        <p>Esse fenômeno é chamado presenteísmo, e é uma das maiores causas de baixa produtividade no trabalho. </p>
+        <p>Na maioria das vezes, o presenteísmo está associado a algum problema de saúde físico ou psicológico do colaborador. </p>
+        <p>E ele custa caro: segundo um estudo americano, o prejuízo é 2 ou 3 vezes maior que o causado por gastos médicos diretos. </p>
+        <p>De acordo com outra pesquisa, as chances de presenteísmo causado por problemas de saúde são 28% maiores para fumantes, 66% maiores para pessoas com má alimentação e 50% maiores para quem não pratica atividades físicas. </p>
+        <p>Isso porque a saúde frágil leva a doenças, mal-estar, baixa concentração e falta de motivação no dia a dia de trabalho. </p>
+        <p>Redução do absenteísmo</p>
+        <p>Absenteísmo é o termo usado para indicar a taxa de ausências dos colaboradores em determinado período de tempo. </p>
+        <p>Investir em bem-estar no trabalho tem relação direta com o controle desse indicador: quanto mais saudável for o profissional, menos ele vai precisar faltar. </p>
+        <p>Colaboradores que com problemas de saúde normalmente se ausentam com mais frequência para realizar consultas médicas e exames. </p>
+        <p>Para doenças de ordem psicológica, muitas vezes a pessoa simplesmente não consegue sair de casa para ir ao escritório. </p>
+        <p>Essas ausências causam queda na produtividade e sobrecarga de trabalho no restante da equipe, que precisa cuidar das demandas da pessoa que está fora. </p>
+        <p>Um bom programa de bem-estar ajuda a evitar esse problema, mantendo o desempenho do time sempre em alta. </p>
+        <p>Melhorias na atração e retenção de talentos</p>
+        <p>Empresas que cuidam do bem-estar dos colaboradores têm maior potencial para atrair os melhores talentos do mercado. </p>
+        <p>Hoje, a qualidade de vida é um fator prioritário na hora de um profissional buscar oportunidades ou escutar propostas. </p>
+        <p>Portanto, ser conhecida como uma organização que valoriza essa necessidade é sempre um bom negócio. </p>
+        <p>Da mesma forma, a retenção de talentos também aumenta, pois investir em bem-estar no trabalho aumenta a satisfação e o engajamento de todos os colaboradores. </p>
+        <p>Nessas condições, as chances de eles permanecerem por mais tempo na organização são muito maiores. </p>
+        <p>Como investir na qualidade de vida e bem-estar dos seus colaboradores? </p>
+        <p>Investir na qualidade de vida de seus funcionários significa promover o bem-estar e melhoria na saúde física, psíquica, social e profissional. </p>",
+        "categoria": "6"
     },
     "6": {
-        "titulo": "Economia 2",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "1"
+        "titulo": "França libera entrada de turistas brasileiros completamente vacinados",
+        "subtitulo": "Serão aceitos somente viajantes que tomaram imunizantes aprovados na Europa",
+        "data-hora": "17/07/2021 às 18:05hs",
+        "data-hora-atualizacao": "17/07/2021 às 19:14hs",
+        "autor": "Patricia Pamplona",
+        "local": "Paris-FR",
+        "descricao-foto-capa": "Imagem da Torre Eiffel de Paris num lindo dia de sol",
+        "foto-capa": "images/travel1.jpg",
+        "texto": "<p>A França está aberta para brasileiros vacinados completamente com imunizantes aprovados pela Agência Europeia de Medicamentos (European Medicines Agency – EMA). Entre as vacinas aplicadas no Brasil, a Coronavac ainda está sendo analisada pelo órgão europeu. Os viajantes daqui autorizados a fazer turismo por lá não precisam cumprir quarentena tampouco apresentar exame PCR negativo, conforme informação do site do governo francês. Quem recebeu o imunizante da Janssen precisa aguardar 28 dias antes da viagem para a França. No caso das outras vacinas aceitas, a espera exigida é de sete dias. </p>
+        <p>No fim de junho, a Suíça já havia liberado a entrada de brasileiros vacinados. Nesse caso, valem todas as vacinas aplicadas no Brasil, já que o país aceita os imunizantes aprovados pela Organização Mundial da Saúde (OMS), o que inclui a Coronavac. A agência da Europa já aprovou: Pfizer, Moderna, AstraZeneca e Janssen. O órgão começou em maio a analisar o imunizante da Sinovac, fabricante da Coronavac, e ainda não divulgou seu parecer. </p>
+        <p>Dúvida sobre a vacina AstraZeneca/Covishield</p>
+        <p>O decreto assinado pelo primeiro-ministro francês, Jean Castex, a pedido do ministro do Turismo, Jean-Baptiste Lemoyne, permite que viajantes de qualquer país entrem na França, desde que estejam 100% imunizados com vacinas aprovadas pela EMA. Como a notícia foi divulgada no meio do fim de semana, algumas dúvidas ainda devem ser esclarecidas nos próximos dias. </p>
+        <p>O governo da França não especificou na divulgação se serão aceitos turistas imunizados com a AstraZeneca/Covishield, fabricada pelo laboratório indiano Serum Institute. A EMA não aprovou essa vacina para ser incluída no Green Pass da União Europeia, passaporte de vacina do bloco europeu. A agência é responsável por regular o que afeta a saúde dos cidadãos dos países-membros. Cabe ao órgão analisar os pedidos de medicamentos aceitos pela União Europeia como um todo. </p>
+        <p>Essa negativa da EMA, por exemplo, deixa britânicos imunizados com a AstraZeneca fabricada na Índia sem saber se poderão viajar para os países da União Europeia, informou o Guardian. </p>
+        <p>Embora a França faça parte da União Europeia, pode ser que a AstraZeneca/Covishield esteja na lista de vacinas aprovadas para viajantes internacionais, pois ele é aplicado nos cidadãos do próprio país e é aceito no passaporte de saúde francês, que passa a ser exigido a partir da próxima quarta, 21 de julho, em lugares com mais de 1 mil pessoas. </p>
+        <p>Na pandemia, muitas regras ainda estão sendo definidas. Depois de oito meses, a Torre Eiffel reabriu à visitação na sexta passada, 16 de julho. A recomendação é que os ingressos, com hora marcada, sejam comprados pela internet, mas, a partir de 21 de julho, a visitação exige a apresentação de passaporte de saúde da União Europeia. Quem não é cidadão de um país-membro deve apresentar um passaporte de saúde, informa o site da atração, mas não fica que documento seria válido para viajantes internacionais. </p>
+        <p>Outras dúvidas que devem ser esclarecidas ao longo desta semana são: se há alguma exigência para crianças, como será o certificado de comprovação de vacinação aceito na França e como fica o termo de compromisso apresentado por viajantes de países da lista vermelha – o Brasil está entre eles. O documento no site do governo francês ainda aparece com itens que falam em exame PCR e auto-isolamento de sete dias, o que pode ser apenas resultado de uma atualização que ainda não foi feita no arquivo. </p>
+        <p>O Brasil segue como um dos países da lista vermelha da França, destinos para os quais não recomenda que seus cidadãos viajem. Mas o decreto do governo francês muda a regra em relação aos turistas que venham de países dessa lista. Quem está autorizado a viajar para a França atualmente está dispensado de quarentena na chegada e da apresentação, como mostra a seguir a tabela com mapa do governo da França. </p>",
+        "categoria": "7"
     },
     "7": {
-        "titulo": "Economia 2",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "1"
+        "titulo": "Em agosto, pela primeira vez na pandemia, maioria das escolas vai abrir; veja exemplos de onde a volta já deu certo no Brasil",
+        "subtitulo": "Apenas uma rede estadual e três municipais entre as capitais manterão aulas apenas à distância",
+        "data-hora": "26/07/2021 às 16:44hs",
+        "data-hora-atualizacao": "27/07/2021 às 16:58hs",
+        "autor": "Bruno Alfano",
+        "local": "São Paulo",
+        "descricao-foto-capa": "Criança apoiada numa mesa estudando e escrevendo em seu caderno",
+        "foto-capa": "images/education1.jpg",
+        "texto": "<p>O Brasil se aproxima, pela primeira vez desde o início da pandemia, de uma reabertura maciça das escolas públicas. A partir de agosto, apenas uma rede estadual e três municipais entre as capitais manterão aulas apenas à distância, segundo levantamento do Vozes da Educação. O mês, que marca a abertura do segundo semestre letivo em 2021, é o começo de um longo processo de recuperação de aprendizagem após mais de 13 meses de escolas fechadas. </p>
+        <p>— A vacinação avançou e os pais já estão fazendo muita pressão. Além disso, quando a rede estadual volta, impulsiona os municípios a reabrir as escolas  — afirma Carolina Campos, coordenadora no Vozes da Educação. </p>
+        <p>Enquanto as redes privadas de 11 estados funcionam desde o começo de 2021 no sistema híbrido (parte das aulas à distância, parte na escola), entre as redes estaduais apenas São Paulo e Santa Catarina viveram essa realidade. </p>
+        <p>Atualmente, sete estados têm escolas abertas na rede pública e, a partir de agosto, outros 17 retornarão. Já entre as capitais, são 12 redes municipais funcionando no sistema híbrido e mais 11 que abrirão em agosto. </p>
+        <p>— Já teríamos condições de ter voltado antes, mas faltou coordenação do Ministério da Educação — avalia Campos. </p>
+        <p>O Brasil vive, nas últimas semanas, uma consistente queda do número de casos e mortes pela Covid-19. Aliada a isso, 45% da população já foram vacinados com a primeira dose e 18% com a segunda. Toda a categoria de profissionais da educação também já pode receber uma dose e, na maior parte dos casos, o grupo deve receber outra em setembro. </p>
+        <p>Recuperação já começou</p>
+        <p>A partir de agora, começam as estratégias para a recuperação do que as crianças não aprenderam. </p>
+        <p>A rede estadual de São Paulo, por exemplo, aproveitou o recesso escolar. Crianças, especialmente aquelas com baixa frequência no ensino remoto, foram às escolas participar de um reforço em português e matemática — disciplinas cuja recuperação também virou prioridade no Espírito Santo. </p>
+        <p>— Vamos ter foco total na recuperação e acredito que, entre setembro e outubro, acaba o rodízio de alunos — diz Rossieli Soares, secretário estadual de Educação de São Paulo. </p>",
+        "categoria": "8"
     },
     "8": {
-        "titulo": "Economia 2",
-        "subtitulo": "",
-        "data-hora": "",
-        "autor": "",
-        "foto-capa": "",
-        "texto": "",
-        "categoria": "1"
+        "titulo": "Carros eletrificados já são mais de 35% das vendas no mercado europeu",
+        "subtitulo": "Carros eletrificados já são mais de 35% das vendas no mercado europeu",
+        "data-hora": "26/07/2021 às 11:11hs",
+        "data-hora-atualizacao": "",
+        "autor": "Felipe Ribeiro",
+        "local": "London-UK",
+        "descricao-foto-capa": "Dois carros sendo abastecidos com eletricidade num ponto de abastecimento em Londres-UK",
+        "foto-capa": "images/car1.jpg",
+        "texto": "<p>O mercado automotivo europeu caminha a passos largos rumo à completa eletrificação. Segundo dados da Associação Europeia de Fabricantes de Automóveis (ACEA), as vendas de carros elétricos e híbridos já somam 35,2% do total de veículos vendidos no continente, ou seja: mais de um terço dos carros comercializados por lá, possuem algum tipo de eletrificação. </p>
+        <p>A divisão ficou da seguinte maneira: </p>
+        <p>Elétricos à bateria: 7,5%</p>
+        <p>Híbridos Plug-In: 8,4%</p>
+        <p>Híbridos leves: 19,3%</p>
+        <p>Pelos números, fica muito claro que o investimento das montadoras e as direções tomadas pelas legislações locais têm surtido efeito positivo no mercado, com cada vez mais opções aos consumidores. Entretanto, a maioria dos carros eletrificados segue sendo de modelos híbridos, sejam eles plug-in ou leves, já que ainda é mais fácil garantir a autonomia de um modelo deste tipo do que um 100% elétrico. </p>
+        <p>De todo modo, os números absolutos das vendas de carros elétricos são ótimos. Ainda segundo a ACEA, foram vendidos 210.298 unidades de veículos 100% elétricos no segundo trimestre de 2021, um aumento de 231,6% com relação ao mesmo período no ano passado. Já entre os híbridos plug-in, as vendas somaram 235.730 e os híbridos leves espantosos 541.162. </p>
+        <p>Vale lembrar que a Europa determinou o calendário para a abolição dos carros a combustão em seu território. Segundo o parlamento europeu, os países têm até 2035 para interromperem a produção e venda desses automóveis por completo. As leis, claro, estão sob aprovação dos países do bloco. </p>
+        <p>E no Brasil? </p>
+        <p>A Associação Brasileira de Veículos Elétricos (ABVE) estima que até o final de 2021 o Brasil terá vendido 28 mil veículos eletrificados. Caso essa previsão se confirme, o crescimento será de cerca de 42% sobre os 19.745 emplacamentos de 2020 — que já tinha sido o melhor ano do segmento no país, com aumento de 66% sobre as vendas de 2019. </p>",
+        "categoria": "9"
     }
 }

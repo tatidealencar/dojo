@@ -9,7 +9,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="js/fontawesome/css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -68,9 +69,13 @@
             <div class="row mt-5">
                 <div class="col-9">
                     <h1 id="titulo">Título da notícia</h1>
-                    <h5 id="subtitulo" class="mb-5">Subtítulo da notícia</h5>
+                    <h5 id="subtitulo" class="mb-3">Subtítulo da notícia</h5>
                     <div id="audio_noticia">
-                        <p>Ouvir notícia</p>
+                        <i class="fas fa-play fa-1x"></i>
+                        <i class="fas fa-stop fa-1x"></i>
+                        <i class="fas fa-pause fa-1x"></i>
+                        <i class="fas fa-forward fa-1x"></i>
+                        <i class="fas fa-backward fa-1x"></i>
                     </div>
                     <div class="card bg-dark text-white">
                         <img id="imagem" src="images/carrousel1.jpg" class="card-img" alt="...">
@@ -119,7 +124,12 @@
                             <p id="autor_local" class="col">Autor, local</p>
                             <p id="data_hora" class="col">Data e horário de postagem | Data e horário de atualização</p>
                         </div>
-                        <div id="redes_sociais" class="col-3">Redes sociais</div>
+                        <div id="redes_sociais" class="col-3">
+                            <i class="fab fa-facebook fa-3x"></i>
+                            <i class="fab fa-twitter fa-3x"></i>
+                            <i class="fab fa-instagram fa-3x"></i>
+                            <i class="fas fa-envelope fa-3x"></i>
+                        </div>
                     </div>
                     <div id="outras_noticias">Links para outras notícias</div>
                 </div>
@@ -264,6 +274,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

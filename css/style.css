@@ -6,28 +6,20 @@
     min-height: 12.5rem;
 }
 
+.bg-card {
+    background-color: #f2f2f2;
+}
+
 .bg-economia {
-    background-color: #dbdad1;
-}
-
-.bg-economia1 {
-    background-color: yellow;
-}
-
-.bg-saude {
-    background-color: #77DD77;
+    background-color: #f4fa58;
 }
 
 .bg-politica {
-    background-color: #dbdad1;
-}
-
-.bg-politica1 {
-    background-color:red;
+    background-color: #ff0028;
 }
 
 .bg-entretenimento {
-    background-color: #87CEEB;
+    background-color: #0040ff;
 }
 
 .bg-esporte {
@@ -35,7 +27,11 @@
 }
 
 .bg-tecnologia {
-    background-color: #C0C6C8;
+    background-color: #848484;
+}
+
+.bg-saude {
+    background-color: #01df01;
 }
 
 .bg-viagem-gastro {
@@ -47,5 +43,13 @@
 }
 
 .bg-carros {
-    background-color: #CD853F;
+    background-color: #ff8000;
+}
+
+#audio_noticia {
+    border: #000 0.05rem solid;
+    border-radius: 5%;
+    max-width: 20%;
+    padding: 0.4rem;
+    margin-bottom: 0.4rem;
 }
