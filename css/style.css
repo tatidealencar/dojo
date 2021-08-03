@@ -7,45 +7,80 @@
 }
 
 .bg-economia {
-    background-color: #f4fa58;
+    background-color: #e8eb3c;
+    color: white;
+
 }
 
 .bg-politica {
     background-color: #ff0028;
+    opacity: 90%;
+    color: white;
 }
 
 .bg-entretenimento {
     background-color: #0040ff;
+    opacity: 90%;
+    color: white;
+
 }
 
 .bg-esporte {
     background-color: #FE5000;
+    opacity: 90%;
+    color: white;
 }
 
 .bg-tecnologia {
     background-color: #848484;
+    opacity: 90%;
+    color: white;
+
 }
 
 .bg-saude {
     background-color: #01df01;
+    opacity: 90%;
+    color: white;
+
 }
 
 .bg-viagem-gastro {
     background-color: #FF69B4;
+    opacity: 90%;
+    color: white;
+
 }
 
 .bg-educacao {
     background-color: #007FFF;
+    opacity: 90%;
+    color: white;
+
 }
 
 .bg-carros {
     background-color: #ff8000;
+    opacity: 90%;
+    color: white;
+
 }
 
 #audio_noticia {
-    border: #000 0.05rem solid;
-    border-radius: 5%;
-    max-width: 20%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 8%;
+    max-width: 15%;
     padding: 0.4rem;
     margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
 }
+
+.audio_noticia {
+    padding-right: 0.5rem;
+} 
+
+.redes_sociais {
+    color: grey;
+    padding-right: 0.5rem;
+} 
+
