@@ -12,19 +12,33 @@ function criarCard(noticias, subcategoria, destaque, row, cor) {
         var titulo = "";
         var subtitulo = "";
         var data_hora = "";
+        var id_noticia = "";
 
-        if (destaque.length > 0) {
-            foto_capa = destaque[0]['foto-capa'];
-            descricao_foto_capa = destaque[0]['descricao-foto-capa'];
-            titulo = destaque[0]['titulo'];
-            subtitulo = destaque[0]['subtitulo'];
-            data_hora = destaque[0]['data-hora'];
+        destaque.forEach(function (element, index) {
+            id_noticia = index;
+        })
+
+        if (id_noticia !== "") {
+            foto_capa = destaque[id_noticia]['foto-capa'];
+            descricao_foto_capa = destaque[id_noticia]['descricao-foto-capa'];
+            titulo = destaque[id_noticia]['titulo'];
+            subtitulo = destaque[id_noticia]['subtitulo'];
+            data_hora = destaque[id_noticia]['data-hora'];
+            destaque.forEach(function (element, index) {
+
+            })
         } else {
-            foto_capa = noticias[0]['foto-capa'];
-            descricao_foto_capa = noticias[0]['descricao-foto-capa'];
-            titulo = noticias[0]['titulo'];
-            subtitulo = noticias[0]['subtitulo'];
-            data_hora = noticias[0]['data-hora'];
+            var noticia;
+            noticias.forEach(function(element, index) {
+                noticia = element;
+                id_noticia = index;
+            });
+            noticias.splice(id_noticia, 1);
+            foto_capa = noticia['foto-capa'];
+            descricao_foto_capa = noticia['descricao-foto-capa'];
+            titulo = noticia['titulo'];
+            subtitulo = noticia['subtitulo'];
+            data_hora = noticia['data-hora'];
         }
 
         var col = document.createElement('col');
@@ -73,7 +87,7 @@ function criarCard(noticias, subcategoria, destaque, row, cor) {
         if (noticias.length > 1) {
             var list_group = document.createElement('div');
             list_group.classList.add('list-group', 'list-group-flush');
-            noticias.forEach(function(element, index) {
+            noticias.forEach(function (element, index) {
                 if (element['destaque'] != 'true') {
                     let link = document.createElement('a');
                     link.classList.add('list-group-item', 'list-group-item-action');
@@ -107,9 +121,10 @@ function carregaNoticias(categoria) {
                 var array = Object.keys(json).map(i => json[Number(i)]);
                 var subcategorias = [];
                 var noticias = [];
+
                 for (let i = 0; i < Object.keys(array).length; i++) {
                     if (array[i]['categoria'] == categoria) {
-                        noticias.push(array[i]);
+                        noticias[i] = array[i];
                         if (subcategorias.includes(array[i]['subcategoria']) == false) {
                             subcategorias.push(array[i]['subcategoria']);
                         }
@@ -117,6 +132,7 @@ function carregaNoticias(categoria) {
                 }
 
                 var bloco = document.getElementById('bloco');
+
                 for (let i = 0; i < subcategorias.length; i = i + 3) {
                     var row = document.createElement('div');
                     row.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3');
@@ -126,7 +142,7 @@ function carregaNoticias(categoria) {
                     for (j; j <= i + 2 && j < subcategorias.length; j++) {
                         criarCard(noticias.filterAssoc(function (noticia) {
                             return noticia['subcategoria'] == subcategorias[j]
-                        }), subcategorias[j], noticias.filter(function (noticia) {
+                        }), subcategorias[j], noticias.filterAssoc(function (noticia) {
                             return noticia['destaque'] == 'true' && noticia['subcategoria'] == subcategorias[j]
                         }), row, getCor(categoria));
                     }
