@@ -11,23 +11,39 @@ fetch("../data.json")
                 return index == id;
             });
 
-            console.log(noticia);
-
             var titulo = document.getElementById('titulo');
             titulo.textContent = noticia[0]['titulo'];
 
             var subtitulo = document.getElementById('subtitulo');
             subtitulo.textContent = noticia[0]['subtitulo'];
 
-            console.log(noticia[0]['foto-capa']);
             if (noticia[0]['foto-capa'] != "") {
                 var div_imagem = document.getElementById('imagem');
-                div_imagem.classList.add("card ", "bg-dark", "text-white");
+                div_imagem.classList.add("card", "bg-dark", "text-white");
                 var img = document.createElement('img');
                 img.classList.add("card-img");
                 img.setAttribute("src", noticia[0]['foto-capa']);
                 img.setAttribute("alt", noticia[0]['descricao-foto-capa']);
                 div_imagem.appendChild(img);
             }
+
+            var texto = document.getElementById('texto_noticia');
+            texto.innerHTML = noticia[0]['texto'];
+
+            var autor_local = document.getElementById('autor_local');
+            autor_local.textContent = noticia[0]['autor'] + ', ' + noticia[0]['local'];
+
+            var data_hora = document.getElementById('data_hora');
+            data_hora.textContent = "Criado em: " + noticia[0]['data-hora'] + (noticia[0]['data-hora-atualizacao'] != "" ? ' | Atualizado em: ' : "") + noticia[0]['data-hora-atualizacao'];
+
+            var link_twitter = document.getElementById('twitter');
+            link_twitter.setAttribute('data-url', 'http://127.0.0.1:5500/noticia.html?id=' + id);
+            link_twitter.setAttribute('data-text', noticia[0]['titulo']);
+
+            var link_facebook = document.getElementById('facebook');
+            link_facebook.setAttribute('data-href', 'http://127.0.0.1:5500/noticia.html?id=' + id);
+
+            var scripts = document.getElementsByTagName('script');
+            scripts[5].setAttribute('data-url', 'http://127.0.0.1:5500/noticia.html?id=' + id);
         });
     })

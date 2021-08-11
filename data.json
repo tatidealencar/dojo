@@ -21,8 +21,8 @@
         "autor": "Nunc dictum",
         "local": "Nunc dictum",
         "descricao-foto-capa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "foto-capa": "",
-        "texto": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum elementum neque sed laoreet. Pellentesque sed auctor ante. Donec gravida turpis at ipsum dictum, ac egestas nisl malesuada. </p>",
+        "foto-capa": "images/negocios.jpg",
+        "texto": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum elementum neque sed laoreet. Pellentesque sed auctor ante. Donec gravida turpis at ipsum dictum, ac egestas nisl malesuada. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum elementum neque sed laoreet. Pellentesque sed auctor ante. Donec gravida turpis at ipsum dictum, ac egestas nisl malesuada. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum elementum neque sed laoreet. Pellentesque sed auctor ante. Donec gravida turpis at ipsum dictum, ac egestas nisl malesuada. </p>",
         "categoria": "1",
         "subcategoria": "Negócios",
         "destaque": "false"

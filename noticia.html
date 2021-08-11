@@ -9,11 +9,16 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="js/fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0&appId=1431103010470829&autoLogAppEvents=1"
+        nonce="6FVHkioF"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
             <div class="container-fluid">
@@ -68,8 +73,8 @@
         <div class="container my-4">
             <div class="row mt-5">
                 <div class="col-9">
-                    <h1 id="titulo">Título da notícia</h1>
-                    <h5 id="subtitulo" class="mb-3">Subtítulo da notícia</h5>
+                    <h1 id="titulo"></h1>
+                    <h5 id="subtitulo" class="mb-3"></h5>
                     <div id="audio_noticia">
                         <i class="fas fa-play fa-1x audio_noticia"></i>
                         <i class="fas fa-stop fa-1x audio_noticia"></i>
@@ -79,55 +84,25 @@
                     </div>
                     <div id="imagem"></div>
                     <hr>
-                    <div id="texto_noticia">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat risus lacus. Nam
-                            mattis tempor lacus, at volutpat massa cursus id. Duis eget tellus luctus, volutpat elit id,
-                            interdum nibh. Sed eu enim nec ante finibus volutpat. Sed in facilisis libero, in lobortis
-                            sapien. Curabitur ut elementum urna. Morbi id lectus at diam vulputate interdum sit amet eu
-                            ante.</p>
-
-                        <p>LPraesent euismod pulvinar risus, egestas commodo augue blandit vel. Vestibulum scelerisque
-                            lectus ut mauris consequat posuere. Vivamus in libero imperdiet, pulvinar enim at, faucibus
-                            enim. Suspendisse non imperdiet ante, sed finibus odio. Nullam libero sem, consectetur non
-                            felis sed, semper tincidunt sem. In a magna vitae erat varius porttitor a vitae lorem. Nulla
-                            semper eget sem vitae lacinia. Etiam pellentesque hendrerit justo, vel viverra leo lobortis
-                            faucibus. Fusce fringilla porta massa, sed sodales felis. Mauris a quam ac ligula
-                            condimentum efficitur at ullamcorper metus.</p>
-
-                        <p>LNulla sed molestie purus, porta eleifend odio. Integer ipsum tellus, facilisis et
-                            sollicitudin a, fringilla rutrum metus. Phasellus ac ornare ligula, non sodales magna.
-                            Vivamus id commodo dui. Curabitur pellentesque iaculis porttitor. Cras sed felis nisi. Nulla
-                            ac est dolor. Aenean non molestie arcu. Etiam dapibus tempor aliquam. Vestibulum sem nulla,
-                            hendrerit posuere interdum a, interdum non orci. Duis purus felis, congue ac felis ornare,
-                            facilisis lacinia tortor. Aliquam sollicitudin porta erat, posuere dictum erat finibus ac.
-                        </p>
-
-                        <p>LMauris ultricies arcu id nisi viverra consectetur. Nullam lobortis ut magna quis ultricies.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                            egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem enim,
-                            at suscipit lacus sodales et. Duis sed fermentum tellus. Curabitur id erat eleifend lectus
-                            ultricies pretium. Praesent et rhoncus mauris. Maecenas eu velit ante. Maecenas in egestas
-                            arcu. Duis ac finibus elit, vitae mattis odio. Integer vestibulum ligula at neque ultricies
-                            tempus.</p>
-
-                        <p>LInteger in mi a felis convallis efficitur. Sed ornare ex non enim eleifend faucibus. Nam
-                            accumsan bibendum fermentum. Morbi leo urna, pharetra eu fermentum et, commodo eu lacus.
-                            Mauris rhoncus tempus tortor et consectetur. Phasellus a mollis odio. Fusce a faucibus
-                            sapien, eget scelerisque sapien. Duis vitae dictum nunc. Integer mattis felis eros, quis
-                            blandit nisi ornare eu. Nulla id finibus enim, id pellentesque leo.</p>
-                    </div>
+                    <div id="texto_noticia"></div>
                     <hr>
                     <div class="row">
-                        <div class="col-9">
-                            <p id="autor_local" class="col">Autor, local</p>
-                            <p id="data_hora" class="col">Data e horário de postagem | Data e horário de atualização</p>
+                        <div class="col-7">
+                            <p id="autor_local" class="col"></p>
+                            <p id="data_hora" class="col"></p>
                         </div>
-                        <div id="redes_sociais" class="col-3">
-                            <i class="fab fa-facebook fa-2x redes_sociais"></i>
-                            <i class="fab fa-twitter fa-2x redes_sociais"></i>
-                            <i class="fab fa-instagram fa-2x redes_sociais"></i>
-                            <i class="fab fa-linkedin-in fa-2x redes_sociais"></i>
-                            <i class="fab fa-whatsapp fa-2x redes_sociais"></i>
+                        <div id="redes_sociais" class="col-5">
+                            <a id="twitter" href="http://twitter.com/share" class="twitter-share-button" data-url=""
+                                data-text="" data-count="horizontal" data-via="dojonews" data-lang="pt">Tweetar</a>
+                            <div id="facebook" class="fb-share-button"
+                                data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+                                data-size="small"><a target="_blank"
+                                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                                    class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+                            <script src="https://platform.linkedin.com/in.js"
+                                type="text/javascript">lang: en_US</script>
+                            <script type="IN/Share"
+                                data-url="https://resultadosdigitais.com.br/blog/twitter-cards/"></script>
                         </div>
                     </div>
                     <div id="outras_noticias">Links para outras notícias</div>
@@ -273,7 +248,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-        <script src="js/noticia.js"></script>
+    <script src="js/noticia.js"></script>
+
 </body>
 
 </html>
