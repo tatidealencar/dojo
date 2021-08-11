@@ -44,6 +44,7 @@ fetch("../data.json")
             link_facebook.setAttribute('data-href', 'http://127.0.0.1:5500/noticia.html?id=' + id);
 
             var scripts = document.getElementsByTagName('script');
+            console.log(scripts);
             scripts[5].setAttribute('data-url', 'http://127.0.0.1:5500/noticia.html?id=' + id);
         });
     })

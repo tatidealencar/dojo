@@ -76,11 +76,15 @@
                     <h1 id="titulo"></h1>
                     <h5 id="subtitulo" class="mb-3"></h5>
                     <div id="audio_noticia">
-                        <i class="fas fa-play fa-1x audio_noticia"></i>
+                        <audio controls>
+                            <source src="inicio_noticia.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                          </audio>
+                        <!--i class="fas fa-play fa-1x audio_noticia"></i>
                         <i class="fas fa-stop fa-1x audio_noticia"></i>
                         <i class="fas fa-pause fa-1x audio_noticia"></i>
                         <i class="fas fa-forward fa-1x audio_noticia"></i>
-                        <i class="fas fa-backward fa-1x audio_noticia"></i>
+                        <i class="fas fa-backward fa-1x audio_noticia"></i-->
                     </div>
                     <div id="imagem"></div>
                     <hr>
@@ -95,14 +99,14 @@
                             <a id="twitter" href="http://twitter.com/share" class="twitter-share-button" data-url=""
                                 data-text="" data-count="horizontal" data-via="dojonews" data-lang="pt">Tweetar</a>
                             <div id="facebook" class="fb-share-button"
-                                data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+                                data-href="" data-layout="button"
                                 data-size="small"><a target="_blank"
                                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
                                     class="fb-xfbml-parse-ignore">Compartilhar</a></div>
                             <script src="https://platform.linkedin.com/in.js"
                                 type="text/javascript">lang: en_US</script>
                             <script type="IN/Share"
-                                data-url="https://resultadosdigitais.com.br/blog/twitter-cards/"></script>
+                                data-url=""></script>
                         </div>
                     </div>
                     <div id="outras_noticias">Links para outras notícias</div>
