@@ -136,17 +136,26 @@ function carregaNoticias() {
 
                 destaques.forEach(function (element, index) {
                     let div = document.createElement('div');
-                    div.classList.add('carousel-item', 'active');
+                    div.classList.add('carousel-item','active');
                     let img = document.createElement('img');
-                    img.classList.add('d-block', 'w-100');
+                    img.classList.add('d-block','w-100');
                     img.setAttribute('src', element['foto-capa']);
                     img.setAttribute('alt', element['descricao-foto-capa']);
 
-                    //aqui
-
+                    let div2 = document.createElement('div');
+                    div2.classList.add('carousel-caption','d-none','d-md-block');
+                    let h5 = document.createElement('h5');
+                    h5.classList.add('c-title_1');
+                    h5.textContent = element['titulo'];
+                    let p = document.createElement('p');
+                    p.classList.add('c-text-1');
+                    p.textContent = element['subtitulo'];
+                    
                     div.appendChild(img);
-                    //adiciona o outro div à variável div
                     caroussel.appendChild(div);
+                    div.appendChild(div2);
+                    div2.appendChild(h5);
+                    div2.appendChild(p);
                 })
 
                 var bloco = document.getElementById('bloco');
