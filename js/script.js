@@ -133,30 +133,50 @@ function carregaNoticias() {
                 })
 
                 let caroussel = document.getElementById('caroussel');
+                let botoes = document.getElementById('botoes');
+
+                var contador = 0;
 
                 destaques.forEach(function (element, index) {
+                    console.log(index);
                     let div = document.createElement('div');
-                    div.classList.add('carousel-item','active');
+                    div.classList.add('carousel-item');
+                    if (index == 0) {
+                        div.classList.add('active');
+                    }
                     let img = document.createElement('img');
-                    img.classList.add('d-block','w-100');
+                    img.classList.add('d-block', 'w-100');
                     img.setAttribute('src', element['foto-capa']);
                     img.setAttribute('alt', element['descricao-foto-capa']);
 
                     let div2 = document.createElement('div');
-                    div2.classList.add('carousel-caption','d-none','d-md-block');
+                    div2.classList.add('carousel-caption', 'd-none', 'd-md-block', 'bg-title');
                     let h5 = document.createElement('h5');
                     h5.classList.add('c-title_1');
                     h5.textContent = element['titulo'];
                     let p = document.createElement('p');
                     p.classList.add('c-text-1');
                     p.textContent = element['subtitulo'];
-                    
+
                     div.appendChild(img);
-                    caroussel.appendChild(div);
                     div.appendChild(div2);
                     div2.appendChild(h5);
                     div2.appendChild(p);
-                })
+                    caroussel.appendChild(div);
+
+                    let button = document.createElement('button');
+                    button.setAttribute('data-bs-target', 'carouselExampleCaptions');
+                    button.setAttribute('data-bs-slide-to', contador);
+                    button.setAttribute('aria-current', element['titulo']);
+                    button.classList.add('active');
+
+                    botoes.appendChild(button);
+                    contador++;
+                });
+
+
+                console.log(caroussel);
+
 
                 var bloco = document.getElementById('bloco');
 

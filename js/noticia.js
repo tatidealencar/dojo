@@ -46,5 +46,14 @@ fetch("../data.json")
             var scripts = document.getElementsByTagName('script');
             console.log(scripts);
             scripts[5].setAttribute('data-url', 'http://127.0.0.1:5500/noticia.html?id=' + id);
+
+            /*
+            pegar o elemento outras_noticias pelo id
+            percorrer o array de noticias e para cada notícia vai criar um elemento 'a' (link)
+            para cada elemento a, setar atributo href com link para a notícia, texto do 
+            link (textContent) e o atributo target (com _blank) se quiser que abra em outra página
+            adicionar cada elemento ao elemento outras_noticias
+            para pegar o id da notícia, usar o segundo parâmetro do foreach
+            */
         });
     })
